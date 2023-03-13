@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My package for the the ALX Higher Level Programming",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "semistandard"
   },
