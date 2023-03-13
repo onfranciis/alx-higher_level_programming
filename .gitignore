@@ -2,3 +2,5 @@
 *Test*
 
 node_modules
+.vscode
+.eslint*
