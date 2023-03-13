@@ -1,0 +1,25 @@
+{
+  "name": "alx-higher_level_programming",
+  "version": "1.0.0",
+  "description": "My package for the the ALX Higher Level Programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onfranciis/alx-higher_level_programming.git"
+  },
+  "keywords": [
+    "alx"
+  ],
+  "author": "onfranciis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onfranciis/alx-higher_level_programming/issues"
+  },
+  "homepage": "https://github.com/onfranciis/alx-higher_level_programming#readme",
+  "dependencies": {
+    "semistandard": "^16.0.1"
+  }
+}
