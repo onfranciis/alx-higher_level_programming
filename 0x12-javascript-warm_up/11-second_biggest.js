@@ -4,5 +4,5 @@ if (array.length < 2) {
   console.log(0);
 } else {
   const sortedArray = array.sort((a, b) => b - a);
-  console.log(sortedArray[0]);
+  console.log(sortedArray[1]);
 }
