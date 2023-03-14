@@ -21,13 +21,13 @@ module.exports = class Rectangle {
   }
 
   rotate () {
-    for (let i = 0; i < (this.width * 2); i++) {
-      let value = '';
-      for (let j = 0; j < (this.height * 2); j++) {
-        value += 'X';
-      }
-      console.log(value);
-    }
+    // for (let i = 0; i < (this.width * 2); i++) {
+    //   let value = '';
+    //   for (let j = 0; j < (this.height * 2); j++) {
+    //     value += 'X';
+    //   }
+    //   console.log(value);
+    // }
   }
 
   double () {
