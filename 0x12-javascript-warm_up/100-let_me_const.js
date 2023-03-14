@@ -1,4 +1,2 @@
 #!/usr/bin/node
-module.exports = () => {
-  this.myVar = 333;
-};
+myVar = 333;
