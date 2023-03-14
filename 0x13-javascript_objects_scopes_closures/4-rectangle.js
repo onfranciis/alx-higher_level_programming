@@ -7,7 +7,6 @@ module.exports = class Rectangle {
     } else {
       // this.width = {};
       // this.height = {};
-      this.print = this.rotate = this.double = null;
     }
   }
 
