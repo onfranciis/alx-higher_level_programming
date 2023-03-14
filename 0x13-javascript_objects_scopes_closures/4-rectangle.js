@@ -4,9 +4,6 @@ module.exports = class Rectangle {
     if ((w > 0) && (h > 0)) {
       this.width = w;
       this.height = h;
-    } else {
-      // this.width = {};
-      // this.height = {};
     }
   }
 
@@ -21,22 +18,10 @@ module.exports = class Rectangle {
   }
 
   rotate () {
-    // for (let i = 0; i < (this.width * 2); i++) {
-    //   let value = '';
-    //   for (let j = 0; j < (this.height * 2); j++) {
-    //     value += 'X';
-    //   }
-    //   console.log(value);
-    // }
+    [this.width, this.height] = [this.height, this.width];
   }
 
   double () {
-    for (let i = 0; i < (this.height * 2); i++) {
-      let value = '';
-      for (let j = 0; j < (this.width * 2); j++) {
-        value += 'X';
-      }
-      console.log(value);
-    }
+    [this.width, this.height] = [this.width * 2, this.height * 2];
   }
 };
