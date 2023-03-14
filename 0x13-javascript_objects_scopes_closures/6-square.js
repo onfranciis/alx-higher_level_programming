@@ -4,7 +4,7 @@ const SquareFirst = require('./5-square');
 
 module.exports = class Square extends SquareFirst {
   constructor (c) {
-    super();
+    super(c);
     this.c = c;
   }
 
@@ -14,9 +14,7 @@ module.exports = class Square extends SquareFirst {
         console.log(character.repeat(this.c));
       }
     } else {
-      for (let i = 0; i < this.c; i++) {
-        console.log('X'.repeat(this.c));
-      }
+      this.print();
     }
   }
 };
